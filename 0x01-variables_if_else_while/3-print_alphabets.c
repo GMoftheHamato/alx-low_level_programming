@@ -3,6 +3,7 @@
  * main - Entry point
  * Return: 0
  */
+
 int main(void)
 {
 	char c;
@@ -10,12 +11,14 @@ int main(void)
 
 	c = 'a';
 	d = 'A';
-	while (c <= 'z)
-	{	putchar(c);
+	while (c <= 'z')
+	{
+		putchar(c);
 		c++;
 	}
 	while (d <= 'Z')
-	{	putchar(d);
+	{
+		putchar(d);
 		d++;
 	}
 	putchar ('\n');
